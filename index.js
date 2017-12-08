@@ -21,7 +21,7 @@ app.all('/orari', function(req, response, next){
 	var receivedParameter = req.query.corso;
 });
 
-//handle get req on /sum
+//handle GET req on /sum
 app.get('/sum', function (req, res) {    
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
